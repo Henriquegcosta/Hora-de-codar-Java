@@ -16,6 +16,7 @@ public class Exercicio9 {
         for(int j = 0; j < numbers.length; j++){
             sum+= numbers[j];
         }
-        System.out.println("A soma dos numeros é: " + sum);
+        int media = sum / 10;
+        System.out.println("A soma dos numeros é: " + media);
     }
 }
